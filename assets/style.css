@@ -1,0 +1,92 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #173646;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #fcfcfd;
+    word-wrap: break-word;
+}
+
+.side-menu {
+    height: 100%;
+    width: 290px;
+    padding-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: width .5s;
+    z-index: 998;
+    float: left;
+}
+
+#sideMenu .side-menu .list-group-item {
+    color:#FFF !important;
+    font-weight: normal;
+}
+
+#sideMenu .side-menu .list-group-item.active {
+    color:#31b5f7 !important;
+}
+
+.btn {cursor:pointer}
+
+.btn-primary {
+    background-color: #173646 !important;
+    border-color: #173646 !important;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #2e4a58 !important;
+    border-color: #2e4a58 !important;
+}
+
+.SideMenu-wrapper {
+    width: 250px;
+    margin-top: 0 !important;
+}
+
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0px;
+    outline-offset: -2px;
+}
+
+.robe-navbar-button {color:#FFF !important; font-size:18px !important; padding: 0 !important; line-height: 30px !important;}
+.header-navbar-right {    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;}
+.robe-header-navbar {    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -webkit-flex-wrap: nowrap !important;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;}
+.robe-header-navbar>a {
+    text-decoration: none !important;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #fcfcfd;
+    border: 1px solid #e7eaec;
+    opacity: 1;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
+    outline: whitesmoke;
+}

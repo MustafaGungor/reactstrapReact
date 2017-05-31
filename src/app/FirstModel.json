@@ -1,0 +1,50 @@
+{
+  "name": "FirstModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Last Updated",
+      "type": "string",
+      "name": "lastUpdated",
+      "tooltip": "Last Updated",
+      "visible": false
+    },
+    {
+      "label": "Adı",
+      "type": "string",
+      "name": "name",
+      "tooltip": "Adı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Soyadı",
+      "type": "string",
+      "name": "surname",
+      "tooltip": "Yolu",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Email",
+      "type": "string",
+      "name": "email",
+      "tooltip": "Yolu",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "version",
+      "type": "number",
+      "name": "version",
+      "tooltip": "version",
+      "visible": false
+    }
+  ]
+}
